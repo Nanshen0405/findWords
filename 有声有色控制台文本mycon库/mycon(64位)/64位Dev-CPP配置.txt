@@ -1,0 +1,9 @@
+Windows8系统64位，Dev-CPP5.11版本。
+
+将C:\Program Files (x86)\Dev-Cpp\MinGW64\bin加到path环境变量中。
+
+将libmycon.a文件拷贝到C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib目录下
+
+将mycon.h文件拷贝到C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include目录下。
+
+编译命令：gcc t.c -static -lmycon -lwinmm -o t.exe
